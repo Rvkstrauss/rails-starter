@@ -1,24 +1,6 @@
 # README
+ Basic service set up to allow retrieval and creation of users in conjunction with MySql db
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ * get /users => returns all users
+ * get /users/:id => returns user with given id
+ * post users/new => creates user with included params and returns newly created user
